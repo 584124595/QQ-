@@ -1,0 +1,136 @@
+#box{
+	position: relative;
+	
+}
+#ul li{
+	list-style: none;
+	display: none;
+}
+#ol{
+	position: absolute;
+	top: 860px;
+	left: 300px;
+}
+#ol li{
+	list-style: none;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid white;
+	text-align: center;
+    margin-right: 5px;
+}
+#active{
+	background-color: white;
+}
+#box img{
+	margin-right: 50px;
+}
+.nav{
+	float: right;
+	margin-right: 80px;
+}
+ul li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.nav li ol{ 
+	list-style:none;
+	width:300px; 
+    height:0px; 
+    overflow:hidden;
+	position:absolute;
+}
+.nav li:hover ol{ 
+	height:150px;
+	width:120px;
+	transition:height 1s;
+	background-color: white;
+	font-size: 20px;
+
+} 
+#middle{
+	float: right;
+	width: 680px;
+	margin-top: 10px;
+	margin-right: 220px;
+}
+.chinese{
+	text-decoration: none;
+	color: black;
+}
+#welcome{
+	float: left;
+	margin-bottom: 45px;
+}
+h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+#day{
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+#num{
+	margin:10px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color:blueviolet;
+}
+input{
+	height: 50px;
+	width: 420px;
+	margin-top: 25px;
+	border: solid 1px gray;
+	font-size: 20px;
+	text-indent: 10px;
+}
+#minus{
+	width: 160px;
+}
+#phone{
+	width: 235px;
+	margin: 15px;
+}
+#tel p{
+	margin: 0px;
+	color: gray;
+}
+#quite{
+	width: 420px;
+	height: 70px;
+	border: 0px;
+	color: white;
+	background-color: dodgerblue;
+	font-size: 30px;
+}
+#footer{
+	margin-top: 60px;
+	width: 630px;
+}
+#footer input{
+	width: 15px;
+	height: 15px;
+	border-color:gray ;
+	background-color: gray;
+}
+#footer label{
+	margin-top:10px ;
+	color: gray;
+	font-size: 20px;
+}
+#copy{
+	width: 450px;
+	color: gray;
+	margin-top:180px ;
+}
